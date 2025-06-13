@@ -1,2 +1,15 @@
-🥟 Momo App – Flutter UI Showcase
-A sleek and minimal Flutter app designed to display a momo food menu with promo banners, search functionality, and a clean bottom nav bar. Perfect for showcasing UI/UX skills with responsive layouts and reusable components.
+Features: Momo App
+
+Beautiful, modern Flutter UI
+
+Browse authentic Nepali food with images and descriptions
+
+Food detail pages with price, rating, and “add to cart”
+
+Secure login and signup flow
+
+Shopping cart with item management and checkout
+
+Discount coupon support
+
+Navigation drawer and smooth navigation throughout the app
