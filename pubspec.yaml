@@ -74,6 +74,7 @@ flutter:
     - assets/images/sukuti.jpg
     - assets/images/chicken_choila.png
     - assets/images/jhol_momo.jpg
+    - assets/images/khaja_main.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

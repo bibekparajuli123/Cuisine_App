@@ -27,7 +27,7 @@ class SignupPage extends StatelessWidget {
                 "Create Account",
                 style: GoogleFonts.dmSerifDisplay(
                   fontSize: 32,
-                  color: AppColors.primary,
+                  color: const Color.fromARGB(255, 221, 76, 32),
                   fontWeight: FontWeight.bold,
                   letterSpacing: 1.2,
                 ),
@@ -111,7 +111,7 @@ class SignupPage extends StatelessWidget {
                     child: Text(
                       "Sign In",
                       style: GoogleFonts.poppins(
-                        color: AppColors.primary,
+                        color: const Color.fromARGB(255, 246, 110, 68),
                         fontWeight: FontWeight.bold,
                         fontSize: 15,
                       ),

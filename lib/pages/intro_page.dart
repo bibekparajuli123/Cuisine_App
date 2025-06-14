@@ -16,9 +16,12 @@ class IntroPage extends StatelessWidget {
           Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
-                colors: [AppColors.primary, AppColors.couponBg],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
+                colors: [
+                  Color.fromARGB(255, 229, 138, 110),
+                  AppColors.couponBg,
+                ],
+                begin: Alignment.bottomRight,
+                end: Alignment.topLeft,
               ),
             ),
           ),
@@ -38,7 +41,7 @@ class IntroPage extends StatelessWidget {
                     child: CircleAvatar(
                       radius: 55,
                       backgroundImage: AssetImage(
-                        'assets/images/main_momo.png',
+                        'assets/images/khaja_main.png',
                       ),
                       backgroundColor: Colors.white,
                     ),
@@ -47,16 +50,21 @@ class IntroPage extends StatelessWidget {
                 const SizedBox(height: 28),
                 // Main title
                 Text(
-                  "MOMO hUb",
+                  "Khaja Express",
                   style: GoogleFonts.dmSerifDisplay(
                     fontSize: 40,
-                    color: Colors.white.withValues(alpha: 0.2),
+                    color: const Color.fromARGB(
+                      255,
+                      45,
+                      24,
+                      24,
+                    ).withValues(alpha: 0.9),
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2,
                     shadows: [
                       Shadow(
                         blurRadius: 6,
-                        color: Colors.black.withValues(alpha: 0.2),
+                        color: Colors.black.withValues(alpha: 0.9),
                         offset: Offset(1, 2),
                       ),
                     ],
@@ -68,7 +76,12 @@ class IntroPage extends StatelessWidget {
                   "The Taste of Nepalese Food",
                   style: GoogleFonts.dmSerifDisplay(
                     fontSize: 22,
-                    color: Colors.white.withValues(alpha: 0.2),
+                    color: const Color.fromARGB(
+                      255,
+                      97,
+                      76,
+                      76,
+                    ).withValues(alpha: 0.9),
                     fontWeight: FontWeight.w500,
                     letterSpacing: 1.2,
                     shadows: [
@@ -85,13 +98,22 @@ class IntroPage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.star, color: Colors.amber.shade400, size: 28),
+                    Icon(
+                      Icons.star,
+                      color: const Color.fromARGB(255, 117, 80, 240),
+                      size: 28,
+                    ),
                     const SizedBox(width: 8),
                     Text(
                       "Authentic, Fresh & Delicious",
                       style: GoogleFonts.poppins(
                         fontSize: 16,
-                        color: Colors.white.withValues(alpha: 0.93),
+                        color: const Color.fromARGB(
+                          255,
+                          8,
+                          8,
+                          8,
+                        ).withValues(alpha: 0.93),
                         fontWeight: FontWeight.w600,
                         shadows: [
                           Shadow(

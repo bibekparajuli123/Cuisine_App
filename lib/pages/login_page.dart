@@ -27,7 +27,7 @@ class LoginPage extends StatelessWidget {
                 "Welcome mate!",
                 style: GoogleFonts.dmSerifDisplay(
                   fontSize: 32,
-                  color: AppColors.primary,
+                  color: const Color.fromARGB(255, 218, 103, 69),
                   fontWeight: FontWeight.bold,
                   letterSpacing: 1.2,
                 ),
@@ -97,7 +97,7 @@ class LoginPage extends StatelessWidget {
                     child: Text(
                       "Sign Up",
                       style: GoogleFonts.poppins(
-                        color: AppColors.primary,
+                        color: const Color.fromARGB(255, 234, 116, 80),
                         fontWeight: FontWeight.bold,
                         fontSize: 15,
                       ),
